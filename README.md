@@ -61,56 +61,6 @@ Create a virtual environment and activate it:
 python -m venv venv
 # On Windows:
 .\venv\Scripts\activate
-# On macOS/Linux:
-source venv/bin/activate
-
-Install Python dependencies:
-
-pip install -r requirements.txt # Create a requirements.txt from your Python project
-
-(If you don't have requirements.txt, you'll need to pip install each library mentioned in "Technologies Used" under Backend.)
-
-Configure environment variables:
-Create a .env file in the backend root directory and add your API keys and other sensitive information.
-
-# Example .env content for backend
-EXCHANGE_API_KEY="YOUR_EXCHANGE_API_KEY"
-EXCHANGE_SECRET_KEY="YOUR_EXCHANGE_SECRET_KEY"
-DATABASE_URL="sqlite:///./trading_bot.db" # Or your PostgreSQL connection string
-# ... other configurations
-
-Run database migrations (if applicable):
-
-# Example for Flask-Migrate or SQLAlchemy Alembic
-flask db upgrade
-
-Start the backend server:
-
-# Example for Flask/FastAPI
-python app.py # or uvicorn main:app --reload
-
-Frontend Setup
-Navigate to the frontend directory:
-
-cd frontend # or wherever your React app lives
-
-Install JavaScript dependencies:
-
-npm install # or yarn install
-
-Configure environment variables:
-Create a .env file in the frontend directory to point to your backend API.
-
-# Example .env.local content for React app
-REACT_APP_BACKEND_API_URL="http://localhost:5000" # Or your deployed backend URL
-REACT_APP_WEBSOCKET_URL="ws://localhost:5000/ws" # Or your deployed WebSocket URL
-
-Start the frontend development server:
-
-npm start # or yarn start (for Create React App)
-npm run dev # or yarn dev (for Next.js)
-
-The application should now be running in your browser, typically at http://localhost:3000 (frontend) and http://localhost:5000 (backend API).
 
 🚀 Usage
 Start Backend: Ensure your Python backend server is running.
@@ -120,5 +70,7 @@ Start Frontend: Open the frontend application in your web browser.
 Configure Strategies: Use the UI to define or select your desired trading strategies.
 
 Monitor Charts: Observe real-time market data and bot activity on the charts.
+
+I have given the stox android apk above install it and run it in your android systems.
 
 Review Performance: Check trade logs and performance metrics to evaluate the bot's effectiveness.
