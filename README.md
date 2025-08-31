@@ -1,21 +1,17 @@
 Automated Trading Bot Project
-This repository contains the code for an automated trading bot designed to execute trades on financial markets based on predefined strategies and visualize market data.
+This repository contains the code for an automated trading bot designed to get predictions strategies of stock market and visualize market data.
 
 🚀 Project Goal
 As previously defined, the core goal of this project is:
 
-"To develop and deploy a robust, automated trading bot capable of executing trades on a specified financial market (e.g., cryptocurrency, stocks, forex) based on predefined, rule-based strategies. The primary objective is to achieve a consistent, positive return on investment (ROI) over a defined period (e.g., monthly/quarterly), while effectively managing risk through programmed stop-loss and position sizing mechanisms, thereby minimizing manual intervention and emotional trading biases."
+"To develop and deploy a robust, trading bot capable of giving predictions on stock market on the previous data based on predefined, rule-based strategies. The primary objective is to achieve a consistent, positive return on investment (ROI) over a defined period (e.g., monthly/quarterly) "
 
 ✨ Features
-Automated Trading Execution: Executes buy/sell orders based on pre-configured trading strategies and market signals.
+MArket Predictions: Integrated AI will give the predicrtions of the market ups and downs 
 
 Real-time Charting: Displays live and historical market data (e.g., candlestick charts) for analysis.
 
-Strategy Management: Allows for the definition and selection of different trading strategies.
-
-Risk Management: Implements stop-loss, take-profit, and position sizing to control exposure.
-
-Performance Tracking: Monitors and reports on trade history, profit/loss, and other key metrics.
+Strategy Management: Allows for the definition and selection of different trading strategies with the help of integrates bot which you can ask about strategy management.
 
 User Interface: A responsive web interface for monitoring the bot's activity and market conditions.
 
@@ -24,8 +20,6 @@ Backend (Python)
 Python: The core language for the trading logic, data processing, and API interactions.
 
 Financial Libraries (e.g., Pandas, NumPy): For data manipulation and analytical calculations.
-
-Trading/Brokerage APIs (e.g., CCXT, Alpaca-py): For connecting to exchanges/brokers and executing trades.
 
 Web Framework (e.g., Flask, FastAPI): For building RESTful APIs to communicate with the frontend.
 
